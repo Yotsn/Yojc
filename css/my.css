@@ -1,4 +1,7 @@
-body{ margin: 0 }
+body {
+	margin: 0;
+	min-width: 1200px;
+}
 
 .parallax{
 	background-attachment: fixed;
@@ -46,6 +49,10 @@ body{ margin: 0 }
 
 .portfolioContainer{
 	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 0;
 }
 
 img {
@@ -84,4 +91,25 @@ img {
 
 #colorsel{
 	color: white;
+}
+
+.explore{
+	width:33.3%;	
+	margin:0 auto;
+}
+	
+.enjoy{
+	width:33.3%;	
+	margin:0 auto;
+}
+
+footer{
+	text-align: center;	
+	color: #428bca;
+}
+ footer h3{
+ 	text-decoration: overline;
+ }
+.label1{
+	color: black;
 }
